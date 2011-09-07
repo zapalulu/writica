@@ -8,9 +8,12 @@
 	------	*/
 
 /* @import url(http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo); */
+@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic);
-
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
@@ -98,10 +101,14 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
-h1, h2, h3 {
+h1, h2 {
 	font-family: 'PT Serif Caption', serif;
+	
 }
 
+h3 {
+	font-family: 'Special Elite', cursive;
+}
 #body, #header hgroup {
 	width: 896px;
 	margin: 0 auto;
@@ -139,7 +146,7 @@ h1, h2, h3 {
 	color: #fff;
 	font-weight: normal;
 	/* font-family: 'Swanky and Moo Moo', cursive; */
-	font-family: 'Dancing Script', Georgia, Times, serif;;
+	font-family: 'Dancing Script', Georgia, Times, serif;
 	font-size: 42px;
 	line-height: 42px;
 	text-decoration: none;
@@ -284,11 +291,30 @@ article header h1 {
 
 
 /* footer start */
-#footer {
+
+/* #footer {
 	margin: 96px 0 24px 0;
 	text-align: center;
 	font-size: 12px;
+	font-family: Architects Daughter, cursive; 
+} */
+
+#footer {
+	font-family: 'Architects Daughter', cursive;
+    font-size: 14px;
 }
+#footer .icon_area {
+	margin: 100px 0px 24px 500px;
+	padding-right: 10px;
+}
+#footer .text_area {
+	margin: 96px 0 24px 0;
+    text-align: right;
+}
+
+
+
+
 /* footer end */
 
 
