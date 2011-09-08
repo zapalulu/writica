@@ -31,19 +31,21 @@
 	</header>
 	<section id="body">
 		<%= yield %>
-	<a style="padding-top:100px;" href="aboutpage.html">About page</a>
 	</section>
 		
 	<footer id="footer">
 		<% if content_for?(:footer) %>
 		  <%= yield(:footer) %>
 		<% else %>
-			<footer class="icon_area">
-				<a href="http://twitter.com/#!/WritiCa" target="_blank" title="Follow us on Twitter">
-				<img src="images/twitter_icon.png" width="40" height="40" hspace="5" alt="lorem"></a>
-			</footer>
-			<footer class="text_area" style="text-align: right; margin-right: 500px;">
-				Copyright Writi.ca 2011 
+            <footer class="icon_area">
+			    <a href="http://twitter.com/#!/WritiCa" target="_blank" title="Follow us on Twitter">
+			    <img src="images/twitter_icon.png" width="40" height="40" hspace="5" alt="lorem"></a>
+		    </footer>
+		    <hgroup>
+                <a href="aboutpage.html">About page</a>
+            </hgroup>
+            <footer class="text_area">
+				Copyright Writi.ca &copy; 2011
 			</footer>
 		<% end %>
 	</footer>
